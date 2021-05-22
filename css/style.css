@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#headline{
+    width: 100%;
+    min-height: 20px;
+    background-color: #438BC5;
+    padding: 10px 0px;
+}
+#headline div p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#brand{
+    width: 100%;
+    border-bottom: 2px solid #F1F1F1;
+}
+#brand .logo{
+    text-align: center;
+}
+#brand .logo img{
+    width: 15%;
+}
+#navigation nav ul{
+   text-align: center; 
+}
+#navigation nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+#navigation nav ul li a{
+    text-decoration: none;
+    color: #2D4545;
+    font-family: font-family: 'Roboto', sans-serif;
+    font width: 600;
+    transition: 1s;
+    font-weight: 80px;
+    
+}
+#navigation nav ul li a:hover{
+    color: #438BC5;   
+}
+#banar{
+    min-height: 700px;
+    min-width: 100%;
+    background-image: url(../img/adult-beautiful-black-friday-291762.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#banar .wraper{
+    width: 80%;
+    margin: 0 auto;
+}
+#banar .wraper .box{
+    background: white;
+    width: 35%;
+    height: 20%;
+    opacity: 0.9;
+    padding: 20px;
+    float: left;
+    transform: translateX(155px);
+    transform: translateY(175px);
+    
+    
+}
+#banar .wraper .box .button{
+    width: 30%;
+    height: 20%;
+    margin-top: 25px;
+    display: inline-block;
+}
+#banar .wraper .box .button a{
+    text-decoration: none;
+    background:#438BC5;
+    text-align: center;
+    opacity: 1;
+    color: white;
+    font-weight: 30px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+#banar .wraper .box a{
+    text-decoration: none;
+    color: #438BC5;
+    font-family:   'Roboto', sans-serif;
+    
+}
+p{
+  font-family:   'Roboto', sans-serif;  
+}
+.border{
+    height: 4px;
+    width: 25px;
+    background-color: #438BC5;
+    margin-bottom: 10px;
+}
+.border2{
+    height: 4px;
+    width: 25px;
+    background-color: #438BC5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.border3{
+    height: 7px;
+    width: 7px;
+    background-color: #438BC5;
+    margin-top: 50px auto;
+    display: inline-block;
+}
+#product{
+    width: 70%;
+    margin: 0 auto;
+    min-height: 500px;
+    padding: 50px 0px;
+}
+.product_box{
+    min-height: 300px;
+    border:1px solid #F1F3F4;
+    width: 23%;
+    float: left;
+    box-sizing: border-box;
+    margin: 0px 1%;
+    padding: 15px;
+}
+.product_box .image img{
+    width:100%;
+}
+.content{
+    margin:10px 0px; 
+}
+.content h3,.content p{
+    font-family: 'Roboto', sans-serif;
+}
+input{
+    border: 1px solid blue;
+    height: 34px;
+    width: 48%;
+    border-radius: 5px;
+}
+::placeholder{
+    color: red;
+    padding-left: 20px;
+}
+.icon{
+    width:60%;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.icon ul{
+    text-align: center;
+}
+.icon ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+.icon ul li a i{
+    background: grey;
+    color: #441810;
+    border-radius: 54%;
+    padding: 25px;
+    margin-top: 18px;
+}
+.price{
+    color: #438BC5;
+}
+#frm .frm{
+ 
+    height: 200px;
+    background-color: #438BC5;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    
+}
+#frm .frm .border4{
+    height: 4px;
+    width: 25px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.btn form{
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+}
+.logo img{
+    width: 20%;
+    display: inline-block;
+}
+.logo {
+    text-align: center;
+}
+nav ul li a:hover{
+    color: #438BC5;   
+}
+ul li a{
+    text-decoration: none;
+    color: #2D4545;
+    font-family: font-family: 'Roboto', sans-serif;
+    font width: 600;
+    transition: 1s;
+    font-weight: 80px;
+    
+}
